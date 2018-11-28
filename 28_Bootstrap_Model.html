@@ -1,0 +1,95 @@
+<!-- ----------------------------------------------------------------------
+Program       :Bootstrap Model Practice
+Date          :28-09-2018
+Auther        :Sumit Patil
+Institute     :WebStack Academy (P) Ltd.
+------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Model</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+<body>
+      
+<div class="container">
+        <h2>Modal Example</h2>
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          Open modal
+        </button>
+      
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis et dolorem nihil ducimus minus corrupti beatae nostrum quos voluptatem mollitia rerum at commodi explicabo, reprehenderit inventore. Adipisci illum eaque odit debitis dolore velit dolores veniam.</p>
+              </div>
+              
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <h1>Animation Model</h1>
+      <div class="container">
+        <h2>Fading Modal</h2>
+        <p>Add the "fade" class to the modal container if you want the modal to fade in on open and fade out on close.</p>
+      
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+          Open modal
+        </button>
+      
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body">
+                Modal body..
+              </div>
+              
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      
+<script src="jquery/jquery.min.js"></script> 
+<script src="Popper/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

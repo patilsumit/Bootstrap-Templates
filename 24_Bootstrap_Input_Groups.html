@@ -1,0 +1,109 @@
+<!-- ----------------------------------------------------------------------
+Program       :Bootstrap Input Groups Practice
+Date          :28-09-2018
+Auther        :Sumit Patil
+Institute     :WebStack Academy (P) Ltd.
+------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>InputGroups Bootstrap </title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <h1>Input Group Sizing</h1>
+   <form>
+    <div class="input-group mb-3 input-group-sm">
+       <div class="input-group-prepend">
+         <span class="input-group-text">Small</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Default</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+  <form>
+    <div class="input-group mb-3 input-group-lg">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Large</span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form> 
+    <h1>Multiple Inputs Helper</h1>
+    <form>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Person</span>
+        </div>
+        <input type="text" class="form-control" placeholder="First Name">
+        <input type="text" class="form-control" placeholder="Last Name">
+      </div>
+    </form>
+    
+    <!-- Multiple addons / help text -->
+    <form>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">One</span>
+          <span class="input-group-text">Two</span>
+          <span class="input-group-text">Three</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+    </form>   
+    <h1>Input checkboxes and radiobutton  </h1>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox"> 
+        </div>
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+    </div>
+    
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="radio"> 
+        </div>
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+    </div>
+    <h1>Input groups buttons</h1>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button">Basic Button</button> 
+      </div>
+      <input type="text" class="form-control" placeholder="Some text">
+    </div>
+    
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Search">
+      <div class="input-group-append">
+        <button class="btn btn-success" type="submit">Go</button> 
+      </div>
+    </div>
+    
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Something clever..">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="button">OK</button> 
+        <button class="btn btn-danger" type="button">Cancel</button> 
+      </div>
+    </div>
+<script src="jquery/jquery.min.js"></script> 
+<script src="Popper/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

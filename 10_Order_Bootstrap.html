@@ -1,0 +1,42 @@
+<!-- ----------------------------------------------------------------------
+Program       :Bootstrap Order
+Date          :25-09-2018
+Auther        :Sumit Patil
+Institute     :WebStack Academy (P) Ltd.
+------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Order</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+    <style>
+      div
+        {
+            border: 1px solid red;
+        }
+        
+    </style> 
+</head>
+<body>
+     <div class="container-fluid ">
+         
+        <div class="row" style="height:150px ">
+                <div class="col text-center">
+                    First (unordered)
+                </div>
+                 <div class="col order-sm-12 h-75">
+                     Second (ordered as order-12)
+                 </div>                 
+                 <div class="col order-1">
+                        Third (ordered as order-1)
+                 </div>                  
+                 
+         </div>
+     </div>
+</body>
+</html>

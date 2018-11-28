@@ -1,0 +1,42 @@
+<!-- ----------------------------------------------------------------------
+Program       :Bootstrap ToolTip Practice
+Date          :29-09-2018
+Auther        :Sumit Patil
+Institute     :WebStack Academy (P) Ltd.
+------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap ToolTip</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     
+</head>
+<body>
+    <!-- <div class="container">
+        <h3>Tooltip Example</h3>
+        <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+      </div>      
+        <h1>All Position</h1> -->
+
+        <div class="container">
+            <h3>Tooltip Example</h3>
+            <p>The data-placement attribute specifies the tooltip position.</p>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a>
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a>
+            <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a>
+        </div>      
+        
+<script src="jquery/jquery.min.js"></script> 
+<script src="Popper/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+</body>
+</html>

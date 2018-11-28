@@ -1,0 +1,44 @@
+<!-- ----------------------------------------------------------------------
+Program       :Bootstrap Two Unequal Column
+Date          :25-09-2018
+Auther        :Sumit Patil
+Institute     :WebStack Academy (P) Ltd.
+------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Two Unequal Column</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+    <style>
+      div.row
+        {
+            border: 3px solid red;
+        }
+        [class|=col]
+        {
+            border:3px solid dodgerblue; 
+        }
+    </style> 
+</head>
+<body>
+     <div class="container-fluid">
+         
+             <div class="col-md-12">
+                    <div class="row align-items-center justify-content-end " style="height:200px ">
+                <div class="col-md-3">
+                    First Column
+                </div>
+                 <div class="col-md-4">
+                     <p>Second Column</p>
+                 </div>                 
+   
+               </div>
+         </div>
+     </div>
+</body>
+</html>

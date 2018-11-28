@@ -1,0 +1,41 @@
+<!-- ----------------------------------------------------------------------
+Program       :Bootstrap Popover Practice
+Date          :29-09-2018
+Auther        :Sumit Patil
+Institute     :WebStack Academy (P) Ltd.
+------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Popover</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     
+</head>
+<body>
+    <div class="container">
+        <h3>Popover Example</h3>
+        <a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a>
+        <a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Bottom</a>
+        <a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">Left</a>
+        <a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right</a>
+      </div>
+      <div class="container">
+        <h3>Popover Example</h3>
+          <a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="focus" data-content="Click anywhere in the document to close this popover">Click me</a><br>
+          <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>
+        </div>
+
+<script src="jquery/jquery.min.js"></script> 
+<script src="Popper/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+    });
+    </script>
+</body>
+</html>
